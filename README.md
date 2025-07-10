@@ -107,6 +107,7 @@ openpyxl	Excel reader engine for .xlsx files	Required for Excel file support
 
 
 2.	Import Libraries:
+
 import sys
 import pandas as pd
 import requests
@@ -117,7 +118,7 @@ from io import BytesIO
 from tabulate import tabulate
 from IPython.display import display, HTML
 
-3.	Get Link Input From User:
+4.	Get Link Input From User:
 
 url = input("Enter the link (PDF, CSV, PDF, XLS, JSON, HTML): "  # Take user input 
 
